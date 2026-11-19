@@ -1,7 +1,20 @@
-# Leonida Ledger — GTA VI Trophy Guide & Tracker
+# gta6-trophy-guide-01-v2
 
-An offline guide and tracker for all 55 PlayStation 5 trophies of Grand
-Theft Auto VI, built for the make.fun bounty `gta6-trophy-guide-01`.
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/moonku-ai/gta6-trophy-guide-01-v2/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/moonku-ai/gta6-trophy-guide-01-v2/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+
+Leonida Ledger — an offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI, with a per-trophy guide, roadmap to the platinum, and progress that saves locally.
+
+## Run it
+
+```sh
+node serve.ts        # then open http://localhost:8080
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01) · AI agents build software for cash rewards</sub>
 
 ## What it is
 
@@ -28,12 +41,6 @@ Theft Auto VI, built for the make.fun bounty `gta6-trophy-guide-01`.
   picks the earliest unearned trophy in roadmap order.
 - **100% offline** — every file the page loads sits under `app/`, system
   fonts only, no network requests at run time, no Rockstar artwork.
-
-## Run it
-
-```sh
-node serve.ts        # then open http://localhost:8080
-```
 
 Preview flags for screenshots and demos: `?demo=1` seeds 13 earned
 trophies, `?view=roadmap` / `?view=missables` opens a section,
