@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Ledger — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="An offline guide and tracker for all 55 Grand Theft Auto VI trophies on PlayStation 5: checklist, roadmap to the platinum, missables, and a cited guide for every trophy.">
+<meta name="theme-color" content="#17122b">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#view-checklist">Skip to the trophy checklist</a>
+<header class="masthead">
+  <div class="masthead-title">
+    <p class="kicker">Grand Theft Auto VI · PlayStation 5 · 55 trophies</p>
+    <h1>Leonida Ledger</h1>
+    <p class="subtitle">The road to the platinum, one trophy at a time. Works fully offline — your progress never leaves this browser.</p>
+  </div>
+  <div class="progress-block" id="progressBlock" aria-label="Overall progress" aria-live="polite">
+    <svg class="ring" viewBox="0 0 120 120" width="108" height="108" role="img" aria-label="Progress ring">
+      <circle class="ring-track" cx="60" cy="60" r="52"></circle>
+      <circle class="ring-fill" id="ringFill" cx="60" cy="60" r="52"></circle>
+    </svg>
+    <p class="progress-count"><span id="earnedCount">0</span><span class="progress-total"> / 55</span></p>
+    <p class="progress-label" id="progressLabel">0% to the platinum</p>
+  </div>
+</header>
+
+<nav class="views" aria-label="Sections">
+  <button type="button" data-view="checklist" class="view-tab is-active">Checklist</button>
+  <button type="button" data-view="roadmap" class="view-tab">Roadmap to platinum</button>
+  <button type="button" data-view="missables" class="view-tab">Missables</button>
+</nav>
+
+<section id="view-checklist" class="view is-active" aria-label="Trophy checklist">
+  <div class="nextup" id="nextUp" hidden></div>
+  <div class="toolbar">
+    <label class="search">Search
+      <input id="searchBox" type="search" placeholder="Name, description or guide text…" autocomplete="off">
+    </label>
+    <label class="spoiler-toggle"><input id="spoilerToggle" type="checkbox"> Hide story spoilers</label>
+    <label class="earned-toggle"><input id="earnedOnly" type="checkbox"> Earned only</label>
+    <button id="exportBtn" type="button">Export progress</button>
+    <label class="import-btn">Import progress <input id="importFile" type="file" accept="application/json,.json"></label>
+    <button id="resetBtn" type="button" class="quiet">Reset</button>
+  </div>
+  <div class="chips" id="kindChips" role="group" aria-label="Filter by kind"></div>
+  <p class="list-meta" id="listMeta"></p>
+  <div class="ledger">
+    <ul class="trophy-list" id="trophyList"></ul>
+    <aside class="detail" id="detailPane" aria-label="Trophy guide"></aside>
+  </div>
+  <p class="empty-note" id="emptyNote" hidden>No trophies match. Try a different filter or search.</p>
+</section>
+
+<section id="view-roadmap" class="view" aria-label="Roadmap to the platinum">
+  <div class="facts" id="roadmapFacts"></div>
+  <ol class="stages" id="roadmapStages"></ol>
+  <p class="sources-note">Roadmap built from the official trophy descriptions and PowerPyx’s GTA 6 Trophy Guide &amp; Roadmap (18 Nov 2026): <a href="https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/">powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/</a>. Hours are PowerPyx’s estimates.</p>
+</section>
+
+<section id="view-missables" class="view" aria-label="Missable trophies">
+  <div class="missable-hero" id="missableHero"></div>
+  <h2>Everything else is safe</h2>
+  <p>PowerPyx confirms that, apart from the one trophy above, nothing trophy-related is missable: all trophy quest-givers return after the story, optional missions that disappear do not affect trophies, and every collectible needed for a trophy also spawns elsewhere. Keep a manual save at the start and end of each chapter anyway — there is no mission replay.</p>
+  <h2>Single-source warnings</h2>
+  <p>TechWiser, cited by CryptoGames, adds that the stranger mission chains behind five hidden trophies have windows tied to story progress. That warning comes from one source only, so this guide lists it here rather than flagging those trophies as missable: start each stranger chain when it unlocks, to be safe.</p>
+  <p class="sources-note">Sources: PowerPyx — GTA 6 Trophy Guide &amp; Roadmap; CryptoGames — GTA 6 Trophies and Achievements: Full List and Hard Ones.</p>
+</section>
+
+<footer>
+  <p>Names, descriptions and grades are the official PlayStation 5 list, as published (Exophase / PSNProfiles, 18 Nov 2026). Guides are written for this page in our own words and cite their sources beside each trophy. No Rockstar artwork, no network requests: every file this page loads sits under app/.</p>
+  <p>Leonida Ledger is an unofficial fan guide. Grand Theft Auto and GTA are trademarks of Take-Two Interactive; this guide is not affiliated with or endorsed by Rockstar Games.</p>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
